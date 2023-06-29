@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup and Sign in page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <!-- Navigation Bar -->
+      <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>              
+                </ul>
+    
+                <form class="d-flex">
+                    <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                </form>
+              </div>
+            </div>
+          </nav>
+      </section>
+
+      <!--Sign up form-->
+      <section>
+        <div class="container text-center pt-40">
+            <form>          
+                <div class="container">
+                    <label for="email"><b>Full Name</b></label></br>
+                    <input type="text" placeholder="John Doe" name="fname" required></br>
+
+                    <label for="email"><b>Email</b></label></br>
+                    <input type="text" placeholder="johndoe@gmail.com" name="email" required></br>
+                
+                    <label id="password" for="psw"><b>Password</b></label></br>
+                    <input type="password"  name="psw" required></br>
+                    
+                    <label id="cpassword" for="psw"><b>Confirm Password</b></label></br>
+                    <input type="password"  name="psw" required></br>
+
+                    <button id="signup" type="button" class="cancelbtn">Sign Up</button>
+                </div>   
+            </form>
+        </div>
+    </section>    
+</body>
+</html>
